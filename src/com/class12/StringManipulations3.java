@@ -1,6 +1,6 @@
 package com.class12;
 
-public class StringManipulation3 {
+public class StringManipulations3 {
 	public static void main(String[] args) {
 
 		// .charAt()--->returns a character at specified index
@@ -31,10 +31,10 @@ public class StringManipulation3 {
 		String newString = str3.substring(9);
 		System.out.println(newString);
 
-		// .subSequence()--> gives another string from-to
-		System.out.println(str3.subSequence(0, 5)); // Today
-		System.out.println(str3.subSequence(16, 20)); // Java
-		System.out.println(str3.subSequence(9, 20)); // Sunday Java
-		System.out.println(str3.subSequence(21, 25)); //class
+		// .substring()--> gives another string from-to
+		System.out.println(str3.substring(0, 5)); // Today
+		System.out.println(str3.substring(16, 20)); // Java
+		System.out.println(str3.substring(9, 20)); // Sunday Java
+		System.out.println(str3.substring(21, 25)); //class
 	}
 }
