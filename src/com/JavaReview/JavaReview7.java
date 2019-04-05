@@ -25,6 +25,8 @@ public class JavaReview7 {
 		z.vowals();
 		z.vowals1();
 		System.out.println(z.eyes);
+		
+		
 		JavaReview7 z1 = new JavaReview7();
 		z1.eyes = "blue";
 		System.out.println(z1.eyes);
@@ -83,9 +85,9 @@ public class JavaReview7 {
 			char empty;
 			for(int a=0; a<ar.length; a++) {
 			  
-			 if (ar[a]=='a' || ar[a]=='A' ||ar[a]=='e' ||ar[a]=='E' 
-					 || ar[a]=='i' ||ar[a]=='I' ||ar[a]=='o' ||ar[a]=='O' ||
-					 ar[a]=='u' ||ar[a]=='U'||ar[a]=='y' ||ar[a]=='Y') {
+			 if (ar[a]=='a' || ar[a]=='A' || ar[a]=='e' || ar[a]=='E' || 
+			     ar[a]=='i' || ar[a]=='I' || ar[a]=='o' || ar[a]=='O' ||
+				 ar[a]=='u' || ar[a]=='U' || ar[a]=='y' || ar[a]=='Y')   {
 				 empty=ar[a];
 				 System.out.print(empty+", ");
 			

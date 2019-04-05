@@ -3,10 +3,20 @@ package com.class16;
 public class Dog {
 
 	/*
-	 * Create a Dog Class and create 3 different objects of it: Pitbul Rottweiler
-	 * Pug With specific attributes: Breed, color, size, age, tail Behaviors: bark,
-	 * eat, sleep, run
+	 * Create a Dog Class and create 3 different objects of it: 
+	 * 
+	 * Objects:
+	 * Pitbul 
+	 * Rottweiler
+	 * Pug
+	 * 
+	 * With specific 
+	 * 
+	 * Attributes: Breed, color, size, age, tail 
+	 * 
+	 * Behaviors: bark, eat, sleep, run
 	 */
+	
 	String breed, color, size, tail;
 	int age;
 
@@ -56,7 +66,7 @@ public class Dog {
 		dog3.tail = "Short and Curly";
 
 		System.out.println("We don't have a "+dog3.breed+" puppy yet but when we will, he or she will be "+dog3.color+
-				" color, "+ dog3.size+" and "+dog3.age+
+				" colork, "+ dog3.size+" and "+dog3.age+
 				" months old and  her/his tail will be "+dog3.tail);
 		dog3.bark();
 		dog3.eat();
