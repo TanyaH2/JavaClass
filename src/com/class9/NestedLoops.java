@@ -2,41 +2,41 @@ package com.class9;
 
 public class NestedLoops {
 	public static void main(String[] args) {
-		for (int num1 = 0; num1 < 24; num1++) {
-
-			for (int num2 = 0; num2 < 60; num2++) {
-				if (num1 < 10) {
-					if (num2 < 10) {
-						System.out.println("0" + num1 + ":0" + num2);
-					} else {
-						System.out.println("0" + num1 + ":" + num2);
-					}
-				} else {
-					if (num2 < 10) {
-						System.out.println(num1 + ":0" + num2);
-					} else {
-						System.out.println(num1 + ":" + num2);
-					}
-				}
-			}
-			for(int hour=0; hour<=24; hour++) {
-                for(int minutes=0;minutes<60;minutes++) {
-                    if(hour < 10) {
-                        if(minutes < 10) {
-                            System.out.println("0" + hour + ":0" + minutes);
-                        }else {
-                            System.out.println("0" + hour + ":" + minutes);
-                        }
-                    }else {
-                        if(minutes < 10) {
-                            System.out.println( hour + ":0" + minutes);
-                        }else {
-                            System.out.println(  hour + ":" + minutes);
-                        }
-                    }
-                }
-            }
-		System.out.println("------------------------");
+//		for (int num1 = 0; num1 < 24; num1++) {
+//
+//			for (int num2 = 0; num2 < 60; num2++) {
+//				if (num1 < 10) {
+//					if (num2 < 10) {
+//						System.out.println("0" + num1 + ":0" + num2);
+//					} else {
+//						System.out.println("0" + num1 + ":" + num2);
+//					}
+//				} else {
+//					if (num2 < 10) {
+//						System.out.println(num1 + ":0" + num2);
+//					} else {
+//						System.out.println(num1 + ":" + num2);
+//					}
+//				}
+//			}
+//			for(int hour=0; hour<=24; hour++) {
+//                for(int minutes=0;minutes<60;minutes++) {
+//                    if(hour < 10) {
+//                        if(minutes < 10) {
+//                            System.out.println("0" + hour + ":0" + minutes);
+//                        }else {
+//                            System.out.println("0" + hour + ":" + minutes);
+//                        }
+//                    }else {
+//                        if(minutes < 10) {
+//                            System.out.println( hour + ":0" + minutes);
+//                        }else {
+//                            System.out.println(  hour + ":" + minutes);
+//                        }
+//                    }
+//                }
+//            }
+//		System.out.println("------------------------");
 
 		// num3-counter variable
 		for (int num3 = 0; num3 <= 3; num3++) {
@@ -72,4 +72,4 @@ public class NestedLoops {
 //
 	}
 	}
-}
+

@@ -1,6 +1,6 @@
 package com.class16;
 
-public class Dog {
+public class Dog {   //public class Dog {
 
 	/*
 	 * Create a Dog Class and create 3 different objects of it: 
@@ -20,11 +20,13 @@ public class Dog {
 	String breed, color, size, tail;
 	int age;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  //public static void main(String[] args) {
 
 		System.out.println("-----Pitbul-----");
 
 		Dog dog1 = new Dog();
+		
+		//Fields 
 		dog1.breed = "Pitbul";
 		dog1.color = "Tan and White";
 		dog1.size = "Medium-Large";
@@ -34,6 +36,9 @@ public class Dog {
 		System.out.println("My first dog is a "+dog1.breed+" and her color is "+dog1.color+
 				", she is "+ dog1.size+", "+dog1.age+
 				" months old and  her tail is "+dog1.tail);
+		
+		
+		//Methods
 		dog1.bark();
 		dog1.eat();
 		dog1.sleep();
@@ -73,8 +78,10 @@ public class Dog {
 		dog3.sleep();
 		dog3.run();
 
-	}
-
+	}   // public static void main(String[] args) {
+ 
+	
+	//METHOD    ///// inside - public class Dog { /////but outside - public static void main(String[] args) {
 	void bark() {
 		if (breed.contentEquals("Pug")) {
 			System.out.println("My " + breed + " likes to bark");
@@ -104,4 +111,4 @@ public class Dog {
 		}
 	}
 
-}
+}      //public class Dog {

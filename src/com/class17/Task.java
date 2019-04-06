@@ -26,9 +26,9 @@ public class Task {
 			System.out.println("Number is Odd");
 		}
 	}
-	
+
 	void taskThree(String a) {
-		
+
 		String new1 = a.replace(" ", "");
 		System.out.println(new1);
 
@@ -44,8 +44,7 @@ public class Task {
 		} else {
 			System.out.println("It is not a palindrome");
 		}
-	}
-	
 
-	
+	}
+
 }

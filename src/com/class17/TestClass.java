@@ -9,8 +9,9 @@ public static void main(String[] args) {
 	
 	String str= new String("Hello");
 	str.isEmpty();// built-in method that comes with String class
-	
+	str.charAt(4);
 	Scanner scan=new Scanner(System.in);
+	
 	scan.hasNextInt();
 	
 	//Methods are 2 types:

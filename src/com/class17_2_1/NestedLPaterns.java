@@ -1,8 +1,8 @@
-package com.class9;
+package com.class17_2_1;
 
 import java.util.Scanner;
 
-public class NestedLoopsPaterns {
+public class NestedLPaterns {
 
 	public static void main(String[] args) {
 		/*
@@ -91,21 +91,21 @@ public class NestedLoopsPaterns {
 		 * done with payments tell them "Thank you for shopping!"
 		 */
 
-		System.out.println("What do you  want to buy?");
-		String prod = sc.nextLine();
-		System.out.println("What is the price?");
-		int price = sc.nextInt();
-		int paid, rem, sum = 0;
-
-		do {
-			System.out.println("Please pay for your " + prod);
-			paid = sc.nextInt();
-			sum = sum + paid;
-			rem = price - sum;
-			System.out.println("You need to pay " + rem + " more if you want your " + prod);
-		} while (sum != price);
-
-		System.out.println("Thank you for shopping enjoy  your " + prod);
+//		System.out.println("What do you  want to buy?");
+//		String prod = sc.nextLine();
+//		System.out.println("What is the price?");
+//		int price = sc.nextInt();
+//		int paid, rem, sum = 0;
+//
+//		do {
+//			System.out.println("Please pay for your " + prod);
+//			paid = sc.nextInt();
+//			sum = sum + paid;
+//			rem = price - sum;
+//			System.out.println("You need to pay " + rem + " more if you want your " + prod);
+//		} while (sum != price);
+//
+//		System.out.println("Thank you for shopping enjoy  your " + prod);
 
 //System.out.println("---------------------------------");		
 

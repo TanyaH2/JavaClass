@@ -33,8 +33,8 @@ public static void main(String[] args) {
 	int b=++a;
 	int	c=a++;	
 	
-	System.out.println(b);
-	System.out.println(c);
+	System.out.println("b="+b);
+	System.out.println("c="+c);
 	
 	int a1=10;
 	int b1=++a1; //preincrement =first increment 10+1 --->assign 11
@@ -42,19 +42,19 @@ public static void main(String[] args) {
 	System.out.println("b1= "+b1);
 	
 	
-//	int c1=10;
-//	int d1=c1++; //postincrement =first assign 10  ---> increment 10+1
-//	System.out.println("с= "+ с1); //11
-//	System.out.println("d1= "+d1); //10
+	int c1=10;
+	int d1=c1++; //postincrement =first assign 10  ---> increment 10+1
+	System.out.println("с= "+ c1); //11
+	System.out.println("d1= "+d1); //10
 	
 	
 	int q=100;
-	int e=q++;//postincrement =first assign 100 ---> increment  100-1
+	int e=q++;//postincrement =first assign 100 ---> increment  100+1
 	System.out.println("e= "+e);
 	System.out.println("q= "+q);
 	
 	int h=50;
-	int g=++h; //preincrement =first increment 50-1  --->assign 49
+	int g=++h; //preincrement =first increment 50+1  --->assign 49
 	System.out.println("g= "+g);
 	System.out.println("h= "+h);
 	
