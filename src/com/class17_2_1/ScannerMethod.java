@@ -27,8 +27,10 @@ import java.util.Scanner;
         
        // ScannerMethod a=
     }
+
+	//public Object sum;
     
-   int sum(int a, int b) {
+   protected int sum(int a, int b) {
         
 //        System.out.println(x +y);
         

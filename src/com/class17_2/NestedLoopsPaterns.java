@@ -47,6 +47,8 @@ public class NestedLoopsPaterns {
 		one6.rowColumn();
 		
 	}
+	
+	// 6
 	void sale(String prod, int paid, int rem, int price) {
 		int sum=0;
 			do {

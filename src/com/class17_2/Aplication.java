@@ -18,10 +18,12 @@ public class Aplication {
 
 		Aplication app = new Aplication();
 		System.out.println(app.exmple7('A'));
-
+        app.exmple3();
+        
+        
 	}
 
-	void example() {
+	void exmple() {
 		System.out.println("No return value and NO Parameters");
 	}
 
@@ -29,7 +31,7 @@ public class Aplication {
 		System.out.println("No return value BUT with Parameter: " + name);
 	}
 
-	boolean example3() {
+	boolean exmple3() {
 		System.out.println("Return value and NO Parameters");
 		return true;
 	}
