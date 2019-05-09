@@ -14,6 +14,18 @@ public class Car {
 		car2.color="Red";
 		totalCars++;
 		
+		Car car3= new Car();
+		car3.color= "Green";
+		totalCars++;
+		
+		Car car4= new Car();
+		car4.color="Pink";
+		totalCars++;
+		
+		Car car5= new Car();
+		car5.color="Yellow";
+		totalCars++;
+		
 		System.out.println("Total car  we made is "+totalCars);
 		
 		

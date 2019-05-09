@@ -2,7 +2,7 @@ package com.class05;
 
 import java.util.Scanner;
 
-public class HomeWork {
+class HomeWork {
 
 //	1.Write a program to find largest of three double values using if-else..
 //	if provided by a user (numbers must be distinct)

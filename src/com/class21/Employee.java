@@ -11,15 +11,15 @@ public class Employee {
 	
 	static String CEO="Sumair";
 	
-	String eID;
+	int eID;
 	int salary;
 	
 	public static void main(String[] args) {
 		
 		Employee E1=new  Employee();
 		Employee E2=new Employee();
-		E1.eID="Bob";
-		E2.eID="Marsel";
+		E1.eID=10003;
+		E2.eID=10004;
 		E1.salary=60;
 		E2.salary=67;
 		E1.eSC();
